@@ -1,0 +1,6 @@
+flask
+flask-restful
+aiohttp
+beautifulsoup4
+uvicorn
+asgiref
