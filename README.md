@@ -12,3 +12,20 @@ A Python web application that fetches news from Lenta.ru and displays them in a 
 - Flask (web framework)
 - aiohttp (async HTTP requests)
 - BeautifulSoup (HTML parsing)
+
+## Installation
+1. Clone the repository:
+   git clone https://github.com/Kreesk/lenta-news-aggregator.git
+   cd lenta-news-aggregator
+
+2. Create and activate a virtual environment:
+   python -m venv venv
+   venv\Scripts\activate
+
+3. Install dependencies:
+   pip install -r requirements.txt
+
+4. Run the application:
+   python main.py
+
+5. Open http://127.0.0.1:3000/news in your browser.
